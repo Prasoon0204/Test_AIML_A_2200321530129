@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter Page</title>
+    <link rel="stylesheet" href="../CSS/welcome.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Currency Converter</h1>
+        </div>
+
+        <div class="main">
+            <div class="left">
+                <p><span class="link" onclick="openConverter()">Converter</span></p>
+            </div>
+
+            <div class="right">
+                <iframe id="converterFrame" src="currency-converter.html" style="display:none;"></iframe>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Currency Converter App | All rights reserved</p>
+        </div>
+    </div>
+    <script src="../JS/welcome.js"></script>
+</body>
+</html>
